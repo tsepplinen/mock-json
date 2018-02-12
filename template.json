@@ -1,0 +1,45 @@
+{
+    "id": {
+        "type": "integer",
+        "method": "increment",
+        "start": 1,
+        "increment": 1
+    },
+
+    "someNumber": {
+        "type": "integer",
+        "method": "random",
+        "start": 1,
+        "end": 1000
+    },
+
+    "someValue": {
+        "type": "decimal",
+        "method": "random",
+        "start": 250.0,
+        "end": 750.0,
+        "precision": 1
+    },
+    
+    "firstname": {
+        "type": "text",
+        "method": "random",
+        "file": "firstnames",
+        "repeat": 2,
+        "separator": " "
+    },
+    
+    "lastname": {
+        "type": "text",
+        "method": "random",
+        "file": "lastnames"
+    },
+
+    "description": {
+        "type": "text",
+        "method": "random",
+        "file": "loremipsum",
+        "repeat": 3,
+        "separator": "&#010;"
+    }
+}
