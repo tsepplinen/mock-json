@@ -23,7 +23,7 @@ Creates mock data in json format with a custom template determining the contents
         Overwrites the output file if it exists.
 
 ## Template
-``` json
+``` js
 {
     "id": {                     // Name of the generated field
         "type": "integer",      // Type: integer, decimal, text
