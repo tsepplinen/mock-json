@@ -25,18 +25,18 @@ Creates mock data in json format with a custom template determining the contents
 ## Template
 ``` json
 {
-    "id": {                     # Name of the generated field
-        "type": "integer",      # Type: integer, decimal, text
-        "method": "increment",  # Increment or random
-        "start": 1,             # Starting value for increment
-        "increment": 1          # Amount to increment each time
+    "id": {                     // Name of the generated field
+        "type": "integer",      // Type: integer, decimal, text
+        "method": "increment",  // Increment or random
+        "start": 1,             // Starting value for increment
+        "increment": 1          // Amount to increment each time
     },
 
     "someNumber": {
         "type": "integer",
         "method": "random",    
-        "start": 1,             # Minimum value for random number generation
-        "end": 1000             # Maximum value for random number generation
+        "start": 1,             // Minimum value for random number generation
+        "end": 1000             // Maximum value for random number generation
     },
 
     "someValue": {
@@ -44,15 +44,15 @@ Creates mock data in json format with a custom template determining the contents
         "method": "random",
         "start": 250.0,
         "end": 750.0,
-        "precision": 1          # How many decimals to use.
+        "precision": 1          // How many decimals to use.
     },
     
     "firstname": {
         "type": "text",
         "method": "random",
-        "file": "firstnames",   # Filename of source lines of data.
-        "repeat": 2,            # How many lines to grab from source data.
-        "separator": " "        # Text to insert between data if repeating.
+        "file": "firstnames",   // Filename of source lines of data.
+        "repeat": 2,            // How many lines to grab from source data.
+        "separator": " "        // Text to insert between data if repeating.
     },
     
     "lastname": {
